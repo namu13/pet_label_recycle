@@ -8,4 +8,5 @@ class QRCodeAdmin(admin.ModelAdmin):
     list_display = (
         "owner", 
         "is_used",
+        "random_string",
     )
