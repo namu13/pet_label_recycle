@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 30px;
+  background-color: grey;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.qr-generate-page {
+  margin-left: 20px;
+}
