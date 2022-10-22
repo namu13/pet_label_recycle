@@ -8,3 +8,4 @@ class User(AbstractUser):
         default="",
     )
     is_generator = models.BooleanField(default=False)
+    point = models.PositiveIntegerField(default=0)
